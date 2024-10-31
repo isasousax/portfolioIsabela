@@ -8,16 +8,16 @@ import { Rodape } from '../componentes/rodape';
 import Favoritos from '../componentes/favoritos'; // Importando o novo componente
 
 const projetos = [
-  { nome: 'Projeto A', descricao: 'Descrição do projeto A' },
-  { nome: 'Projeto B', descricao: 'Descrição do projeto B' },
-  { nome: 'Projeto C', descricao: 'Descrição do projeto C' },
+  { nome: 'Aluna Destaque', descricao: 'Sou a Isabela e estudo muito, por issomeu rendimento academico foi alto e eu fui aluna destaque' },
+  { nome: 'Handebol', descricao: 'jogo desde 2019 e tenho uma paixão muito grande pelo esporte, já viajei para alguns lugares somete para jogar handebol, minha viagem mais recente foi para "Vila Velha- ES" onde competi e fiquei em segundo lugar.' },
+  { nome: 'Emprego', descricao: 'Eu tenho uma única obrigação que é os meus estudos mas apesar de só estudar, eu trabalho para minha mãe. minha mãe é professora e ela me paga para dfazer alguma de suas obrigações, com ex; lançar notas no sistema educacional da instituição ao qual ela trabalha, lançar faltas, conteúdos dados em sala de aula entre outros.' },
 ];
 
 export default function Home() {
   return (
     <div className="app">
       <Cabecalho
-        nome="Meu Portfólio"
+        nome="Isabela Sousa"
         subtitulo="Bem-vindo ao meu espaço"
         descricao="Aqui você encontrará uma seleção dos meus projetos e experiências."
       />
